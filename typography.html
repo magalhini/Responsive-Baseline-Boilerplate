@@ -1,0 +1,121 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Vertical Rythm Basics</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script type="text/javascript" src="http://goldengridsystem.com/assets/GGS.js"></script>
+
+    <style type="text/css">
+
+        .container {
+            margin: 3.6em 5.55556%;
+            padding: 0.75em;
+               -moz-transition: all 0.3s ease-in-out 0s;
+            -webkit-transition: all 0.3s ease-in-out 0s;
+                -op-transition: all 0.3s ease-in-out 0s;
+                    transition: all 0.3s ease-in-out 0s;
+        }
+
+        body {
+           /* The default browser font size is 16px, we're sizing it up a little.
+            * This will maintain the same scale as the original 16px in our calculations.
+            */
+            font-size: 110%;
+            line-height: 1.5;
+            font-family: Georgia, serif;
+        }
+
+        /* The "magic number" equals font-size * line-height.
+         * In this case, the magic number = 16 * 1.5 = 24,
+         * so 24 will be the base value for every calculation.
+         *
+         * All margins should be a multiple of this number.
+         *
+         * HOW TO DO THE MATH
+         *
+         * magic number  = body font-size * 1.5
+         *
+         * font-size     = desired pixel value / default pixel size (16px)
+         * line-height   = magic number / pixel value
+         * margin-bottom = same as line-height
+         *
+         * OTHER CONSIDERATIONS
+         *
+         * Don't forget to apply the same margin to all elements (p, ul, ol, img, etc)
+         * to maintain consistency across the page.
+         */
+
+         /* Every element should offset its base by the magic number,
+            or at least a multiple of this. */
+        p, ul, ol, img {
+            margin-bottom: 1.5em; /* 24px == (16 * 1.5) */
+        }
+
+        .massive-title {
+            font-size: 3em;       /* == 48px / 16px */
+            line-height: 1em;     /* == 24px / 48px actually equals 0.5, but
+            that's too little in case the heading has more than a single line.
+            In this cases, it's safe to double it. */
+            margin-bottom: 0.5em; /* == 24px / 48px */
+        }
+
+        h1, .title1 {
+            font-size: 1.5em;    /* == 24px / 16px */
+            line-height: 1em;    /* == 24px / 24px */
+            margin-bottom: 1em;  /* == 24px / 24px */
+        }
+
+        h2, .title2 {
+            font-size: 1.375em;       /* == 22px / 16px */
+            line-height: 1.0909em;    /* == 24px / 22px */
+            margin-bottom: 1.0909em;  /* == 24px / 22px */
+        }
+
+        h3, .title3 {
+            font-size: 1.25em;    /* == 20px / 16px */
+            line-height: 1.2em;   /* == 24px / 20px */
+            margin-bottom: 1.2em; /* == 24px / 20px */
+        }
+
+        h4, .title4 {
+            font-size: 1.125em;     /* == 18px / 16px */
+            line-height: 1.333em;   /* == 24px / 18px */
+            margin-bottom: 1.333em; /* == 24px / 18px */
+        }
+
+        h5, .title5 {
+            font-size: 1em;         /* == 16px / 16px */
+            line-height: 1.5em;     /* == 24px / 16px */
+            margin-bottom: 1.5em;   /* == 24px / 16px */
+        }
+
+       /* Resize typography (and everything else sized in em's) for
+        * smaller and larger viewports.
+        */
+        @media screen and (max-width: 900px) {
+          body { font-size: 100%; }
+        }
+
+        @media screen and (min-width: 1600px) {
+          body { font-size: 140%; }
+        }
+
+    </style>
+
+</head>
+<body>
+  <div class="container">
+      <h1 class="massive-title">This is a massive title!</h1>
+      <p>That could be 'my' beautiful soul sitting naked on a couch. If I could just learn to play this stupid thing. And why did 'I' have to take a cab? For the last time, I don't like lilacs! Your 'first' wife was the one who liked lilacs! And why did 'I' have to take a cab?</p>
+      <h1>A Fishful of Dollars</h1> <p>And until then, I can never die? I meant 'physically'. Look, perhaps you could let me work for a little food? I could clean the floors or paint a fence, or service you sexually? Well I'da done better, but it's plum hard pleading a case while awaiting trial for that there incompetence. Five hours? Aw, man! Couldn't you just get me the death penalty?</p> <h2>Bend Her</h2> <p>Why yes! Thanks for noticing. Ven ve voke up, ve had zese wodies. Tell her you just want to talk. It has nothing to do with mating. Actually, that's still true. Yes, if you make it look like an electrical fire. When you do things right, people won't be sure you've done anything at all. I was having the most wonderful dream. Except you were there, and you were there, and you were there!</p> <ul> <li>Bender, we're trying our best.</li> <li>I guess because my parents keep telling me to be more ladylike. As though!</li> </ul> <h3>Obsoletely Fabulous</h3> <p>You won't have time for sleeping, soldier, not with all the bed making you'll be doing. It doesn't look so shiny to me. Negative, bossy meat creature! I didn't ask for a completely reasonable excuse! I asked you to get busy! Bender, you risked your life to save me! Who are you, my warranty?!</p> <h4>Love and Rocket</h4> <p>That could be 'my' beautiful soul sitting naked on a couch. If I could just learn to play this stupid thing. And why did 'I' have to take a cab? For the last time, I don't like lilacs! Your 'first' wife was the one who liked lilacs! And why did 'I' have to take a cab?</p> <ol> <li>I was having the most wonderful dream. Except you were there, and you were there, and you were there!</li> <li>Well I'da done better, but it's plum hard pleading a case while awaiting trial for that there incompetence.</li> <li>You, minion. Lift my arm. AFTER HIM!</li> </ol> <h5>Lethal Inspection</h5> <p>I'm Santa Claus! And from now on you're all named Bender Jr. When the lights go out, it's nobody's business what goes on between two consenting adults. It's a T. It goes "tuh". Yes, if you make it look like an electrical fire. When you do things right, people won't be sure you've done anything at all. Alright, let's mafia things up a bit. Joey, burn down the ship. Clamps, burn down the crew.</p>
+  </div>
+</body>
+</html>

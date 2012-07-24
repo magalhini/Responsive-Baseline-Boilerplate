@@ -1,0 +1,57 @@
+body {
+    font-size: 100%;
+    font-family: Cambria, Georgia, serif;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+h2 {
+    font-size: 1.75em;
+    line-height: 0.86em;
+    margin-bottom: 0.86em;
+}
+
+h3 {
+    font-size: 1.38em;
+    line-height: 1.09em;
+    margin-bottom: 1.09em;
+}
+
+h4 {
+    font-size: 1.13em;
+    line-height: 1.33em;
+    margin-bottom: 1.33em;
+}
+
+h5 {
+    font-size: 1.13em;
+    line-height: 1.33em;
+    margin-bottom: 1.33em;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    line-height: 1.5em;
+} 
+
+.container {
+    max-width: 55em;
+    margin: auto;
+    overflow: hidden;
+}
+
+.index {
+    text-align: center;
+}
+
+.results {
+    float: left;
+    text-align: left;
+    padding: 5%;
+}
