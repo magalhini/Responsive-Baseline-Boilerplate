@@ -1,57 +1,50 @@
 body {
-    font-size: 100%;
+    font-size: 110%; /* == approx. 17.6px by default */
     font-family: Cambria, Georgia, serif;
     line-height: 1.5;
 }
 
-h1 {
-    font-size: 2em;
-    line-height: 0.75em;
-    margin-bottom: 0.75em;
+/*  All other elements should have margins that are multiples of
+ *  the magic number
+ */
+p, ul, ol, img {
+    margin-bottom: 1.5em; /* 24px == (16 * 1.5) */
 }
 
-h2 {
-    font-size: 1.75em;
-    line-height: 0.86em;
-    margin-bottom: 0.86em;
+.massive-title {
+    font-size: 3em;       /* == 48px / 16px */
+    line-height: 1em;     /* == 24px / 48px actually equals 0.5, but
+                                       that's too little in case the heading has more than a single line.
+                                       In this cases, it's safe to double it. */
+    margin-bottom: 0.5em; /* == 24px / 48px */
 }
 
-h3 {
-    font-size: 1.38em;
-    line-height: 1.09em;
-    margin-bottom: 1.09em;
+h1, .title1 {
+    font-size: 1.5em;    /* == 24px / 16px */
+    line-height: 1em;    /* == 24px / 24px */
+    margin-bottom: 1em;  /* == 24px / 24px */
 }
 
-h4 {
-    font-size: 1.13em;
-    line-height: 1.33em;
-    margin-bottom: 1.33em;
+h2, .title2 {
+    font-size: 1.375em;       /* == 22px / 16px */
+    line-height: 1.0909em;    /* == 24px / 22px */
+    margin-bottom: 1.0909em;  /* == 24px / 22px */
 }
 
-h5 {
-    font-size: 1.13em;
-    line-height: 1.33em;
-    margin-bottom: 1.33em;
+h3, .title3 {
+    font-size: 1.25em;    /* == 20px / 16px */
+    line-height: 1.2em;   /* == 24px / 20px */
+    margin-bottom: 1.2em; /* == 24px / 20px */
 }
 
-p {
-    font-size: 1em;
-    margin-bottom: 1.5em;
-    line-height: 1.5em;
-} 
-
-.container {
-    max-width: 55em;
-    margin: auto;
-    overflow: hidden;
+h4, .title4 {
+    font-size: 1.125em;     /* == 18px / 16px */
+    line-height: 1.333em;   /* == 24px / 18px */
+    margin-bottom: 1.333em; /* == 24px / 18px */
 }
 
-.index {
-    text-align: center;
-}
-
-.results {
-    float: left;
-    text-align: left;
-    padding: 5%;
+h5, .title5 {
+    font-size: 1em;         /* == 16px / 16px */
+    line-height: 1.5em;     /* == 24px / 16px */
+    margin-bottom: 1.5em;   /* == 24px / 16px */
 }

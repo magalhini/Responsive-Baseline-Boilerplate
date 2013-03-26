@@ -15,7 +15,12 @@
 
     <style type="text/css">
 
+    /* Custom CSS */
+
         .container {
+            max-width: 55em;
+            margin: auto;
+            overflow: hidden;
             margin: 3.6em 5.55556%;
             padding: 0.75em;
                -moz-transition: all 0.3s ease-in-out 0s;
@@ -23,6 +28,18 @@
                 -op-transition: all 0.3s ease-in-out 0s;
                     transition: all 0.3s ease-in-out 0s;
         }
+
+        .index {
+            text-align: center;
+        }
+
+        .results {
+            float: left;
+            text-align: left;
+            padding: 5%;
+        }
+
+        /* Guide to Vertical Rythm */
 
         body {
            /* The default browser font size is 16px, we're sizing it up a little.
@@ -43,9 +60,9 @@
          *
          * magic number  = body font-size * 1.5
          *
-         * font-size     = desired pixel value / default pixel size (16px)
-         * line-height   = magic number / pixel value
-         * margin-bottom = same as line-height
+         * font-size     = desired pixel value / default pixel size (16px) (em sizing)
+         * line-height   = magic number / pixel value (em sizing)
+         * margin-bottom = same as line-height (em sizing)
          *
          * OTHER CONSIDERATIONS
          *
